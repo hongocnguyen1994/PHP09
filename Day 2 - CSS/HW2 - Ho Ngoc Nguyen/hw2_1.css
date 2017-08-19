@@ -1,0 +1,93 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/Aclonica.ttf);
+}
+#border{
+	border: 5px groove red;
+	margin: auto;
+	width: 700px;
+	height: 375px;
+}
+#header{
+	background: #2E9AFE;
+	padding: 20px;
+	margin-top: 0px;
+	margin-bottom: 2px;
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}
+#main-content {
+	background: #04B404;
+	padding: 70px;
+	margin-top: 0px;
+	margin-left: 150px;
+	margin-bottom: 2px;
+	color: white;
+	width: 200px;
+	height: 100px;
+	float: left;
+	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}
+
+#sidebar{
+	background: #8904B1;
+	padding: 60px;
+	padding-bottom: 20px;
+	margin-top: 0px;
+	margin-right: 200px;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	color: white;
+	width: 100px;
+	height: 140px;
+	float: left;
+	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}
+#twin1{
+	background: #FF8000;
+	padding: 40px;
+	padding-left: 80px; 
+	margin-top:0px;
+	margin-left: 150px;
+	margin-bottom: 2px;
+	color: white;
+	width: 200px;
+	height: 100px;
+	float: left;
+	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}
+#twin2{
+	background: #FF8000;
+	padding: 60px;
+	padding-bottom: 20px;
+	margin-top: 0px;
+	margin-right: 200px;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	color: white;
+	width: 100px;
+	height: 100px;
+	float: left;
+	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}
+#footer{
+	color: white;
+	background: blue;
+	width: 680px;
+	height: 30px;
+	clear: both;
+	padding: 10px;
+	padding-bottom: 30px;
+	margin-bottom: 2px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}

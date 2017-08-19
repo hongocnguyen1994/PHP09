@@ -1,0 +1,51 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/Aclonica.ttf);
+}
+#header #logo img{
+	width: 100px;
+	height: 100px;
+	float:left;
+	padding-left:150px;
+}
+#content .a{
+	height: 50px;
+	color:#FF8000;
+	font-family: Arial;
+	font-size:30px;
+	font-weight:bold;
+	text-shadow:1px 1px black;
+	padding-left:300px;
+	margin-bottom: 0px;
+	/*font-family: 'Sedgwick Ave Display', cursive;*/
+}
+#content .b{
+	height: 30px;
+	color: #01DF01;
+	font-family: Arial;
+	font-size:20px;
+	padding-left:310px;
+	margin-top:0px;
+}
+h2{
+	padding-left:100px;
+}
+#footer {
+	padding-left:100px;
+}
+#footer .tieude{
+	font-size:20px;
+	font-weight:bold;
+}
+#footer .copy{
+	text-align: right;
+}
+ul {
+	padding-left:130px;
+}
+ul li a.green{
+	color: green;
+}
+#footer .abc{
+	font-weight: bold;
+}
