@@ -1,0 +1,290 @@
+*{
+	margin: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+/*--------banner--------*/
+#banner{
+	background: #ffc600;
+	width: 100%;
+	height: 100px;
+}
+#insidebanner{
+	margin-left: 100px;
+}
+#insidebanner .logo{
+	float: left;
+	width: 390px;
+	height: 100px;
+}
+#insidebanner .info{
+	float: left;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 15px;
+}
+#insidebanner .info .info1{
+	font-size: 23px;
+
+}
+/*--------menu--------*/
+#menu{
+	background: #B40404;
+	width: 100%;
+	height: 45px;
+}
+#ulmenu{
+	margin-left: 40px;
+	width: 90%;
+	height: 100%;
+	list-style-type: none;
+	background: #B40404;
+}
+#ulmenu li{
+	position: relative;
+}
+#ulmenu li a{
+	color: yellow;
+	text-decoration: none;
+	float: left;
+	width: 98px;
+	height: 31px;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 14px;
+}
+#ulmenu li a:hover, a:active{
+	background-color: yellow;
+	color: black;
+}
+#ulmenu .trangchu a{
+	width: 110px;
+}
+#ulmenu .tintuc a{
+	width: 150px;
+}
+#ulmenu .chuongtrinh a{
+	width: 155px;
+}
+#ulmenu .khoahoc a{
+	width: 150px;
+}
+#ulmenu .tuyensinh a{
+	width: 135px;
+}
+#ulmenu .gochocvien a{
+	width: 120px;
+}
+#ulmenu .ebook a{
+	width: 85px;
+}
+#ulmenu .lienhe a{
+	width: 80px;
+}
+#ulmenu .gioithieu a{
+	width: 90px;
+}
+#ulmenu .dangnhap a{
+	width: 110px;
+}
+#ulmenu li.khoahoc ul.inside{
+	height: 112px;
+    width: 161px;
+    position: absolute;
+    background: black;
+    margin-left: 415px;
+    padding-left: 16px;
+    margin-top: 45px;
+    display: none;
+}
+#ulmenu li.khoahoc:hover ul.inside{
+    display: block;
+}
+#ulmenu li.khoahoc ul.inside li{
+	display: inline-block;
+	height: 22px;
+}
+#ulmenu li.khoahoc ul.inside li a{
+	text-align: left;
+	padding-top: 4px;
+    height: 25px;
+}
+/*goc hoc vien*/
+#ulmenu li.gochocvien ul.inside2{
+	height: 89px;
+    width: 149px;
+    position: absolute;
+    background: black;
+    margin-left: 701px;
+    padding-left: 16px;
+    margin-top: 45px;
+    display: none;
+}
+#ulmenu li.gochocvien:hover ul.inside2{
+    display: block;
+}
+#ulmenu li.gochocvien ul.inside2 li{
+	display: inline-block;
+	height: 22px;
+}
+#ulmenu li.gochocvien ul.inside2 li a{
+	text-align: left;
+	padding-top: 4px;
+    height: 25px;
+}
+#ulmenu li.gochocvien ul.inside2 li a{
+	width: 141px;
+}
+/*--------adv--------*/
+#adv{
+	margin-top: 11px;
+	margin-left: 80px;
+}
+/*----tintucsukien----*/
+#tintucsukien{
+	width: 1150px;
+	height: 450px;
+	margin-left: 80px;
+}
+#headertintuc{
+	height: 37px;
+	width: 1150px;
+	background: #f1f1f1;
+	border-left: solid #ae1a1f;
+}
+#headertintuc p{
+	font-size: 23px;
+    padding-top: 3px;
+    float: left;
+    padding-left: 10px;
+    color: #ae1a1f;
+}
+#headertintuc a{
+	float: right;
+    text-decoration: none;
+    height: 26px;
+    width: 124px;
+    margin-top: 4px;
+    margin-right: 3px;
+    background: #d9534f;
+    color: white;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+#contenttintuc{
+	width: 1150px;
+	height: 410px;
+	margin-top: 5px;
+}
+#text{
+	font-family: arial;
+}
+/*--*/
+#contenttintuc1{
+	width: 33%;
+	height: 385px;
+	float: left;
+}
+#contenttintuc1 .title1{
+	text-decoration: none;
+	color: black;
+}
+#contenttintuc1 p{
+	margin-bottom: 3px;
+	margin-top: 5px;
+	text-align: justify;
+	margin-right: 20px;
+}
+
+/*----chuongtrinhdaotao----*/
+
+#chuongtrinhdaotao{
+	width: 1150px;
+	height: 1300px;
+	margin-left: 80px;
+}
+#headerdaotao{
+
+	height: 37px;
+	width: 1150px;
+	background: #f1f1f1;
+	border-left: solid #ae1a1f;
+}
+#headerdaotao p{
+	font-size: 23px;
+    padding-top: 4px;
+    float: left;
+    
+    padding-left: 10px;
+    color: #ae1a1f;
+}
+/*--*/
+#contentdaotao1{
+	width: 1150px;
+	height: 610px;
+}
+#contentdaotao{
+	width: 25%;
+	height: 600px;
+	float: left;
+	margin-top: 10px;
+}
+#contentdaotao img{
+	display: block;
+	margin-left: auto; 
+	margin-right: auto;
+}
+#daotaohocky{
+	color: #ae1a1f;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bold;
+}
+#daotaolanguage{
+	text-align: center;
+}
+#daotaonoidung{
+	padding-left: 5px;
+	padding-right: 15px;
+	text-align: justify;
+	margin-bottom: 20px;
+	font-family: arial;
+}
+#button1{
+	height: 43px;
+}
+#button1 a{
+	text-decoration: none;
+    background: #d9534f;
+    color: white;
+    margin: 90px;
+    padding: 8px;
+}
+#daotaonoidung2{
+	padding-left: 5px;
+	padding-right: 15px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#headerdaotao2 .header1{
+	text-align: center;
+	text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+#headerdaotao2 .header2{
+	text-align: center;
+	margin-bottom: 15px;
+}
+#imgdaotao{
+	width: auto;
+    height: 120px;
+    margin-top: 10px;
+}
+#contentdaotao21{
+	font-weight: bold;
+	text-align: center;
+}

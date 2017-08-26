@@ -1,0 +1,66 @@
+*{
+	padding: 0;
+}
+#border123{
+	margin: 20px;
+	padding: 15px;
+	width: 707px;
+	height: 806px;
+	background-image: url("example2-3.jpg")
+}
+#background
+{
+	border: 2px groove black;
+	color: black;
+	width: 700px;
+	height: 800px;
+	background-color: white;
+
+}
+#header img{
+	float: left;
+	margin-top: -8px;
+	margin-right: 8px;
+    margin-left: 14px;
+}
+#sectionleft img{
+	float: left;
+}
+#header .header1{
+	color: yellow;
+	font-size: 30px;
+	float: left;
+	margin: 0;
+	margin-left: 10px;
+	font-family: 'Poppins', sans-serif;
+}
+#header .header2{
+	color: green;
+	font-size: 20px;
+	float: left;
+	margin: 0;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-family: 'Poppins', sans-serif;
+
+}
+#header .border{
+	border-bottom: 1px groove black;
+	padding-top: 75px;
+	margin-right: 21px;
+    margin-left: 16px;
+}
+#sectionleft{
+	float: left;
+	border-right: 1px groove black;
+}
+#sectionleft .headersectionleft{
+	width: 425px;
+}
+#sectionleft .section1{
+	width: 425px;
+}
+#sectionright{
+	float: left;
+	margin-left: 16px;
+}

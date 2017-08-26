@@ -1,0 +1,38 @@
+ul li.home{
+	list-style-image: url("home.ico")
+}
+ul li.new{
+	list-style-image: url("new.ico")
+}
+ul li.music{
+	list-style-image: url("music.ico")
+}
+ul{
+	width: 1000px;
+	height: 100px;
+
+}
+li{
+	width: 100px;
+	float: left;
+}
+
+ol li.home{
+	list-style-image: url("home.ico")
+}
+ol li.new{
+	list-style-image: url("new.ico")
+}
+ol li.music{
+	list-style-image: url("music.ico")
+}
+ol{
+	width: 1000px;
+}
+
+a:link{
+	color: green;
+}
+a:hover{
+	font-size: 125%;
+}

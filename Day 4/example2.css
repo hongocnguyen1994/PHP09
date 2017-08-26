@@ -1,0 +1,18 @@
+ul li{
+	list-style-type: upper-alpha;
+}
+ul{
+	height:50px;
+}
+#A{
+	height: 800px;
+}
+#B{
+	height: 800px;
+}
+a:hover{
+	font-size: 110%;
+}
+a{
+	text-decoration: none;
+}
