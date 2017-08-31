@@ -1,0 +1,19 @@
+p{
+	text-indent:30px;
+}
+#header{
+	height: 280px;
+}
+#header .avatar{
+	float: left;
+}
+#header .contentheader{
+	float: left;
+	margin-top: -14px;
+}
+h1 input{
+	font-size: 30px;
+}
+#skill  ul li{
+	margin-bottom: 3px; 
+}

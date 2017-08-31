@@ -1,0 +1,169 @@
+@media screen and (max-width: 1366px){
+*{
+	margin: 0px;
+}
+#header{
+	width: 96%;
+	height: 100px;
+	background-color: #81DAF5;
+	margin: 10px;
+	margin-left: 20px;
+}
+#groupheader{
+	margin-left: 11px;
+}
+#borderheader{
+	width: 100%;
+	height: 50px;
+	margin: 0;
+	font-size: 25px;
+	font-weight: bold;
+}
+#borderheader p{
+	padding-top: 10px;
+}
+#borderheader1 p{
+	text-align: center;
+	padding-top: 11px;
+}
+#borderheader1{
+	width: 100%;
+	height: 40px;
+	margin: 0;
+}
+#borderheader2{
+	float: left;
+	background-color: #CEF6F5;
+	width: 20%;
+	margin-right: 20px;
+	height: 40px;
+}
+#borderheader3{
+	float: left;
+	background-color: #CEF6F5;
+	width: 50%;
+	margin-right: 20px;
+	height: 40px;
+}
+#borderheader4{
+	float: left;
+	background-color: #CEF6F5;
+	width: 26%;
+	height: 40px;
+}
+/*-----hero------*/
+#groupheroad{
+    width: 96%;
+    height: 215px;
+    margin: 10px;
+    margin-left: 20px;
+}
+#hero{
+	width: 72%;
+	height: 215px;
+	background-color: #81DAF5;
+	float: left;
+}
+#ad{
+	background-color: #0489B1;
+	float: left;
+	height: 215px;
+	width: 27%;
+	margin-left: 13px;
+}
+#borderhero1 p{
+	text-align: center;
+	padding-top: 60px;
+}
+#borderhero2{
+	float: left;
+	background-color: #CEF6F5;
+	width: 65%;
+	margin-right: 20px;
+	height: 150px;
+}
+#borderhero3{
+	float: left;
+	background-color: #CEF6F5;
+	width: 30%;
+	margin-right: 20px;
+	height: 150px;
+}
+#grouphero{
+	margin-left: 11px;
+}
+
+#ad p{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 85px;
+}
+/*-----body - sidebar----*/
+#groupbodysidebar{
+	width: 96%;
+    height: 560px;
+    margin: 10px;
+    margin-left: 20px;
+
+}
+#body{
+	width: 72%;
+	height: 550px;
+	background-color: #81DAF5;
+	float: left;
+}
+#borderbody1 p{
+	text-align: center;
+	padding-top: 200px;
+}
+#borderbody2{
+	float: left;
+	background-color: #CEF6F5;
+	width: 64%;
+	margin-right: 20px;
+	height: 465px;
+}
+#borderbody3{
+	float: left;
+	background-color: #CEF6F5;
+	width: 30%;
+	margin-right: 20px;
+	height: 465px;
+}
+#groupbody{
+	background-color: #81DAF5;
+	height: 550px;
+	margin-left: 10px;
+}
+#sidebar{
+	width: 27%;
+	height: 550px;
+	float: left;
+	margin-left: 13px;
+}
+#groupsidebar{
+	background-color: #81DAF5;
+	height: 550px;
+	padding-left: 10px
+}
+#bordersidebar{
+    margin-right: 20px;
+    text-align: center;
+    height: 460px;
+    background-color: #CEF6F5;
+}
+#bordersidebar1{
+	padding-top: 190px;
+}
+/*---footer-----*/
+#footer{
+	width: 96%;
+	height: 75px;
+	background-color: #81DAF5;
+	margin: 10px;
+	margin-left: 20px;
+}
+#footer p{
+	padding-left: 10px;
+}

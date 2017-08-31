@@ -1,0 +1,75 @@
+@media screen and (max-width: 1024px){
+*{
+	margin: 0px;
+}
+#borderheader4 {
+    width: 24%;
+}
+#ad{
+	position: absolute;
+	top: 395px;
+    left: 707px;
+    height: 200px;
+}
+#groupheroad{
+	width: 96%;
+}
+#hero{
+	width: 100%;
+	height: 205px;
+}
+#borderhero2 {
+    height: 65px;
+    width: 98%;
+    float: none;
+}
+#borderhero3 {
+    width: 98%;
+    margin-right: 20px;
+    height: 65px;
+    margin-top: 15px;
+    float: none;
+}
+#borderhero1 p {
+    padding-top: 22px;
+}
+#body{
+	width: 100%;
+	height: 750px
+}
+#borderbody1 p{
+	padding-top: 87px;
+}
+#borderbody3 p{
+	padding-top: 215px;
+}
+#borderbody2{
+	width: 70%;
+	height: 200px;
+	float: none;
+	position: relative;
+}
+#borderbody3{
+	float: none;
+	width: 98%;
+	margin-top: 10px;
+	height: 480px;
+}
+#groupbodysidebar{
+	height: 927px
+}
+#sidebar{
+	margin-top: 10px;
+	margin-left: 0px;
+	width: 100%;
+	height: 170px;
+}
+#groupsidebar{
+	height: 170px;
+}
+#bordersidebar{
+	height: 105px;
+}
+#bordersidebar1{
+	padding-top: 45px;
+}

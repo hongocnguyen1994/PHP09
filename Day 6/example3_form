@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Example3 - Day 6</title>
+		<link rel="stylesheet" type="text/css" href="example1.css">
+		<!-- lấy file css (External)-->
+	</head>
+	<body>
+		<form name="email_form" action="" method="post">
+			<p>Please enter an email address </p>
+			<p>Email: <input type="text" name="email"> </p>
+			<p><input type="submit" name="submit" value="subscribe"></p>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+@media screen and (max-width: 414px){
+html{
+	width: 200%;
+}
+#header{
+	height: 150px;
+}
+#borderheader2{
+	width: 98%;
+}
+#borderheader3{
+	margin-top: 10px;
+	width: 59%;
+}
+#borderheader4{
+	margin-top: 10px;
+}
+#borderhero2{
+	display: none;
+}
+
+}

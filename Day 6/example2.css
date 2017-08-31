@@ -1,0 +1,19 @@
+table{
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+th, td{
+	border: 1px solid black;
+}
+.left{
+	background-color: #00FFFF;
+	text-align: left;
+}
+#total{
+	background-color: #00FFFF;
+	text-align: left;
+}
+.left2{
+	text-align: center;
+	background-color: #00FFFF;
+}

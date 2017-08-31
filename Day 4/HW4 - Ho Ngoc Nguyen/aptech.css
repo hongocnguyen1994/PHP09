@@ -11,21 +11,21 @@ body{
 	height: 100px;
 }
 #insidebanner{
-	margin-left: 100px;
+	margin-left: 10%;
 }
 #insidebanner .logo{
 	float: left;
-	width: 390px;
+	width: 30%;
 	height: 100px;
 }
 #insidebanner .info{
 	float: left;
-	margin-top: 10px;
+	margin-top: 1%;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 85%;
 }
 #insidebanner .info .info1{
-	font-size: 23px;
+	font-size: 170%;
 
 }
 /*--------menu--------*/
@@ -241,11 +241,16 @@ body{
 	text-align: center;
 	padding-top: 10px;
 	font-weight: bold;
+	height: 33px;
 }
 #daotaolanguage{
 	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	height: 45px;
 }
 #daotaonoidung{
+	height: 100px;
 	padding-left: 5px;
 	padding-right: 15px;
 	text-align: justify;
