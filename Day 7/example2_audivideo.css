@@ -1,0 +1,37 @@
+object{
+	transition: font-size 2s ease-out 1s, color 2s ease-in 1s;
+}
+object:hover{
+	cursor: pointer;
+	font-size: 180%;
+	color: red;
+}
+p{
+	transition: font-size 5s ease-out 2s, color 2s ease-in 1s;
+}
+p:hover{
+	cursor: pointer;
+	font-size: 180%;
+	color: red;
+}
+.image1{
+	transition: 2s;
+}
+.image1:hover{
+	transform: translateX();
+}
+h1{
+	margin-left: 20%;
+	color: blue;
+	animation: moveright 3s 2s infinite ease-in-out alternate;
+}
+@keyframes moveright{
+	from{
+		margin-left: 20%;
+		color: blue;
+	}
+	to{
+		margin-left: 60%;
+		color: red;
+	}
+}

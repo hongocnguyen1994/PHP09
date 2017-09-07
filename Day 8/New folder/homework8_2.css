@@ -1,0 +1,170 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+	color: #04B4AE;
+}
+	header{
+	height: 100px;
+	width: 95%;
+	margin-left: 30px;
+}
+#search{
+	height: 30px;
+	width: 100%;
+}
+#headerborder{
+	height: 50px;
+	width: 100%;
+}
+
+#searchico{
+	padding-top: 3px;
+	float: right;
+}
+#textarea{
+	padding-bottom: 10px;
+	float: right;
+}
+#headerborder .logo{
+	float: left;
+	width: 50px;
+}
+#headerborder .namelogo{
+	float: left;
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 7px;
+    margin: 0;
+}
+#menu{
+	float: right;
+}
+#menu .home{
+	float: left;
+}
+#ulmenu li{
+	float: left;
+	margin-left: 40px;
+    list-style-type: none;
+}
+#ulmenu li a{
+	text-decoration: none;
+	color: #04B4AE;
+}
+#ulmenu img{
+	margin-top: -10px;
+}
+/*------------banner--------*/
+#banner{
+	width: 95%;
+	height: 100px;
+	background: #81DAF5;
+	margin-left: 30px;
+}
+#banner p{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 17px;
+}
+/*-----------main content--------*/
+#maincontent{
+	width: 95%;
+	height: 1025px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#maincontent_left{
+	width: 25%;
+	height: 1010px;
+	float: left;
+}
+.maincontent_left_1{
+	height: 250px;
+	margin-top: 30px;
+}
+.maincontent_left_1 ul li{
+	list-style-type: none;
+	margin-left: -30px;
+	height: 30px;
+}
+.maincontent_left_1 ul{
+	margin-top: -10px;
+}
+.header_maincontent_left{
+	background: #81DAF5;
+    height: 30px;
+    width: 60%;
+    font-size: 20px;
+    font-weight: bold;
+}
+#maincontent_right{
+	width: 73%;
+	height: 1010px;
+	float: right;
+}
+.imgContentRight{
+	background: #81DAF5;
+	height: 170px;
+}
+.textContentRight{
+	height: 70px;
+	width: 69%;
+	float: left;
+	margin-top: 10px
+}
+.textContentRight p{
+	margin: 0;
+}
+.moneyContentRight{
+	height: 70px;
+	width: 29%;
+	float: right;
+	margin-top: 10px
+}
+.moneyContentRight p{
+	margin: 0;
+	text-align: right;
+	font-weight: bold;
+	font-size: 20px;
+}
+.buttonContentRight{
+    height: 43px;
+    width: 50%;
+    margin-top: 87px;
+    margin-left: 70px;
+}
+.buttonContentRight a{
+	background: blue;
+	color: white;
+	text-decoration: none;
+	margin-left: 55px;
+}
+.content1{
+    float: right;
+    width: 30%;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+/*-----------footer--------*/
+footer{
+	background: #81DAF5;
+	width: 100%;
+	height: 180px;
+}
+#contact{
+	width: 100%;
+	height: 250px;
+	background: #04B4AE;
+}
+.logocontact{
+	width: 16%;
+	float: left;
+}
+.contact1{
+	width: 16%;
+	float: left;
+}
+.contact2{
+	width: 26%;
+	float: left;
+}

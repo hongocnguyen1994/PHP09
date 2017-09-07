@@ -1,0 +1,168 @@
+
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+	header{
+	height: 100px;
+	width: 95%;
+	margin-left: 30px;
+}
+footer{
+	height: 100%;
+	width: 95%;
+	margin-left: 30px;
+}
+#search{
+	height: 30px;
+	width: 100%;
+}
+#headerborder{
+	height: 50px;
+	width: 100%;
+}
+#slide{
+	height: 200px;
+	width: 100%;
+	background: #81DAF5;
+}
+#textbox{
+	margin-top: 50px;
+	height: 150px;
+	width: 100%;
+}
+#content{
+	margin-top: 50px;
+	height: 370px;
+	width: 100%;
+}
+#searchico{
+	padding-top: 3px;
+	float: right;
+}
+#textarea{
+	padding-bottom: 10px;
+	float: right;
+}
+#headerborder .logo{
+	float: left;
+	margin-top: 15px;
+}
+#headerborder .namelogo{
+	float: left;
+    font-weight: bold;
+    font-size: 20px;
+    color: #04B4AE;
+    padding-left: 7px;
+}
+#menu{
+	float: right;
+}
+#menu .home{
+	float: left;
+}
+#ulmenu li{
+	float: left;
+	margin-left: 40px;
+    list-style-type: none;
+}
+#ulmenu li a{
+	text-decoration: none;
+	color: #04B4AE;
+}
+#ulmenu img{
+	margin-top: -10px;
+}
+#slide p{
+	text-align: right;
+	font-weight: bold;
+	color: #04B4AE;
+}
+.headerslide{
+	font-size: 23px;
+}
+#textbox p{
+	text-align: center;
+	margin-top: 50px;
+	color: #04B4AE;
+}
+#textbox .textbox1{
+	height: 130px;
+	width: 30%;
+	float: left;
+	background: #81DAF5;
+	margin-right: 62px;
+}
+#textbox .textbox2{
+	height: 130px;
+	width: 30%;
+	float: right;
+	background: #81DAF5;
+}
+#content h1{
+	text-align: center;
+	color: #04B4AE;
+}
+.content1{
+	float: left;
+	width: 24%;
+	height: 300px;
+	margin-right: 16px;
+}
+.content2{
+	float: left;
+	width: 24%;
+	height: 300px;
+}
+.img1{
+	height: 140px;
+	background: #81DAF5;
+}
+.textcontent{
+	float: left;
+	width: 65%;
+	height: 70px;
+	margin-top: 10px;
+	color: #04B4AE;
+}
+.moneycontent{
+	float: right;
+	width: 30%;
+	height: 70px;
+	margin-top: 10px;
+	color: #04B4AE;
+	font-weight: bold;
+	text-align: right;
+}
+.buttonbuy{
+	margin-top: 10px;
+	float: left;
+	margin-left: 90px;
+	width: 110px;
+    height: 50px;
+}
+.buttonbuy a{
+	width: 100px;
+    height: 40px;
+	text-align: center;
+	background: red;
+	text-decoration: none;
+	color: white;
+	background: #2E2EFE;
+}
+#contact{
+	width: 100%;
+	height: 250px;
+	background: #04B4AE;
+}
+.logocontact{
+	width: 16%;
+	float: left;
+}
+.contact1{
+	width: 16%;
+	float: left;
+}
+.contact2{
+	width: 26%;
+	float: left;
+}
