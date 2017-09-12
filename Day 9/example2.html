@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<title>Example2 - JavaScrip - Day 9</title>
+		<script type="text/javascript" src="commonex2.js"></script>
+	</head>
+	<body>
+		<form name="" action="#">
+			<input type="text" name="price" id="price" onchange='document.getElementById("pricePrint").innerHTML = document.getElementById("price").value'>
+
+			<input type="text" name="discount" id="discount">
+
+			<input type="button" value="Buy" onclick='document.getElementById("discountPrint").innerHTML = document.getElementById("price").value * document.getElementById("discount").value / 100'>
+		</form>
+		<p id="pricePrint"></p>
+		<p id="discountPrint"></p>
+	</body>
+</html>

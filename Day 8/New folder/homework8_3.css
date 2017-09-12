@@ -60,71 +60,107 @@ header{
 }
 /*------Content------*/
 #bordercontent{
-	height: 1150px;
+	height: 860px;
 	width: 95%;
 	margin-left: 30px;
 }
-#banner{
-	background: #DDE7EF;
-	height: 95px;
-}
-#banner p{
-	padding: 15px 0 0 25px;
-    font-size: 45px;
-    margin: 0;
-    font-weight: bold;
-    color: #709DBE;
-}
-
-#content{
-	margin-top: 65px;
-}
-#leftContent{
-	float: left;
-	width: 22%;
-}
-.mainLeftContent{
-	height: 200px;
-}
-.mainLeftContent ul{
-	padding: 0;
-}
-
-.mainLeftContent ul li .headerMainLeftContent{
-	background: #DDE7EF;
-	padding: 5px 40px 5px 5px;
-}
-
-.mainLeftContent a{
-	text-decoration: none;
+#borderContent1{
+	height: 425px;
 	color: #709DBE;
 }
-.mainLeftContent li{
-	list-style-type: none;
-	margin-top: 10px;
-}
-
-
-
-
-
-#rightContent{
+#leftBorderContent1{
 	float: left;
-	width: 78%;
+	width: 41%;
+	height: 100%
 }
-.rightContent_1{
-	height: 320px;
+#rightBorderContent1{
+	height: 100%;
+	float: left;
+	width: 59%;
 }
-.rightContent_2 {
-    height: 320px;
+#headerRightContent{
+	border-bottom: solid 1px;
 }
-.rightContent_3 {
-    height: 320px;
+#text1HeaderRightContent{
+	margin: 0;
+	color: #709DBE;
+	font-size: 35px;
+	font-weight: bold;
 }
-.mainRightContent{
-	margin-left: 20px;
-	float: right;
-	width: 30%;
+#text2HeaderRightContent{
+	margin: 5px 0 0 0;
+	color: #709DBE;
+}
+#mainRightContent{
+	height: 78%;
+}
+#leftMainRightContent{
+	float: left;
+	width: 65%;
+	height: 100%;
+}
+#rightMainRightContent{
+	float: left;
+	width: 35%;
+	height: 100%;
+}
+#learnMore{
+	width: 67%;
+    height: 92px;
+    background: #DDE7EF;
+}
+#learnMore p{
+	font-weight: bold;
+	margin: 0;
+	padding: 10px 0 22px 0;
+}
+#learnMore a{
+	text-decoration: none;
+	color: white;
+	background: #78A3C2;
+	padding: 10px;
+	margin-left: 70px;
+}
+#quantity{
+	width: 100px;
+}
+#rightMainRightContent a{
+	text-decoration: none;
+	color: white;
+	background: #78A3C2;
+	padding: 10px;
+	margin-left: 45px;
+}
+
+#mainImg{
+	width: 92%;
+    height: 255px;
+    background: #DDE7EF;
+    margin-top: 15px;
+}
+#subImg{
+	margin-top: 15px;
+	width: 100%;
+	height: 70px;
+}
+.subImg1{
+	background: #DDE7EF;
+    width: 21%;
+    height: 70px;
+    float: left;
+    margin-right: 11px;
+}
+
+.headercontent1{
+	font-size: 30px;
+	font-weight: bold;
+	color: #709DBE;
+	margin: 0;
+}
+.content1{
+	width: 23%;
+	float: left;
+	margin-right: 15px;
 }
 .img1{
 	height: 170px;

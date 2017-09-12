@@ -1,14 +1,11 @@
-
+body{
+	margin-top: 50px;
+}
 *{
 	font-family: 'Montserrat', sans-serif;
 }
-	header{
-	height: 100px;
-	width: 95%;
-	margin-left: 30px;
-}
-footer{
-	height: 100%;
+header{
+	height: 150px;
 	width: 95%;
 	margin-left: 30px;
 }
@@ -16,46 +13,35 @@ footer{
 	height: 30px;
 	width: 100%;
 }
-#headerborder{
-	height: 50px;
-	width: 100%;
-}
-#slide{
-	height: 200px;
-	width: 100%;
-	background: #81DAF5;
-}
-#textbox{
-	margin-top: 50px;
-	height: 150px;
-	width: 100%;
-}
-#content{
-	margin-top: 50px;
-	height: 370px;
-	width: 100%;
-}
 #searchico{
 	padding-top: 3px;
 	float: right;
 }
 #textarea{
-	padding-bottom: 10px;
+	padding-bottom: 7px;
 	float: right;
+	width: 220px;
 }
-#headerborder .logo{
+#headerborder{
+	height: 50px;
+	width: 100%;
+}
+#headerborder1 .logo{
 	float: left;
-	margin-top: 15px;
+	width: 35px;
 }
-#headerborder .namelogo{
+#headerborder1 .namelogo{
 	float: left;
     font-weight: bold;
-    font-size: 20px;
-    color: #04B4AE;
+    font-size: 30px;
+    color: #709DBE;
     padding-left: 7px;
+    margin: 0px;
 }
+
 #menu{
 	float: right;
+	width: 700px;
 }
 #menu .home{
 	float: left;
@@ -67,76 +53,118 @@ footer{
 }
 #ulmenu li a{
 	text-decoration: none;
-	color: #04B4AE;
+	color: #709DBE;
 }
 #ulmenu img{
 	margin-top: -10px;
 }
+/*------Content------*/
+#bordercontent{
+	height: 1010px;
+	width: 95%;
+	margin-left: 30px;
+}
+#slide{
+	height: 303px;
+	width: 100%;
+	background: #DDE7EF;
+}
+#headerslide{
+	padding-top: 15px;
+	padding-right: 5px;
+}
 #slide p{
 	text-align: right;
 	font-weight: bold;
-	color: #04B4AE;
+	color: #709DBE;
+	font-size: 18px;
+	padding-right: 15px;
 }
-.headerslide{
-	font-size: 23px;
+#headerslide p{
+	font-size: 30px;
+	margin: 0px;
+}
+
+#textbox{
+	margin-top: 81px;
+	height: 141px;
+	width: 100%;
 }
 #textbox p{
 	text-align: center;
-	margin-top: 50px;
-	color: #04B4AE;
+    margin-top: 55px;
+    color: #709DBE;
+    font-size: 25px;
 }
 #textbox .textbox1{
-	height: 130px;
+	height: 100%;
 	width: 30%;
 	float: left;
-	background: #81DAF5;
-	margin-right: 62px;
+	background: #DDE7EF;
+	margin-right: 5%;
 }
 #textbox .textbox2{
-	height: 130px;
+	height: 100%;
 	width: 30%;
 	float: right;
-	background: #81DAF5;
+	background: #DDE7EF;
+}
+
+#content{
+	margin-top: 61px;
+	height: 400px;
+	width: 100%;
 }
 #content h1{
-	text-align: center;
-	color: #04B4AE;
+	margin: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #709DBE;
+}
+#bordercontent1_2{
+	width: 100%;
+    height: 340px;
 }
 .content1{
 	float: left;
-	width: 24%;
+	width: 23%;
 	height: 300px;
-	margin-right: 16px;
+	margin-right: 2.6%;
 }
 .content2{
 	float: left;
-	width: 24%;
+	width: 23%;
 	height: 300px;
 }
 .img1{
-	height: 140px;
-	background: #81DAF5;
+	height: 170px;
+	background: #DDE7EF;
 }
 .textcontent{
 	float: left;
 	width: 65%;
 	height: 70px;
 	margin-top: 10px;
-	color: #04B4AE;
+	color: #709DBE;
+}
+.textcontent p{
+	margin: 0px;
 }
 .moneycontent{
 	float: right;
 	width: 30%;
 	height: 70px;
 	margin-top: 10px;
-	color: #04B4AE;
+	color: #709DBE;
 	font-weight: bold;
 	text-align: right;
 }
+.moneycontent p{
+	margin: 0px;
+}
 .buttonbuy{
-	margin-top: 10px;
 	float: left;
-	margin-left: 90px;
+	margin: 10px 32% 0px 32%;
 	width: 110px;
     height: 50px;
 }
@@ -147,22 +175,113 @@ footer{
 	background: red;
 	text-decoration: none;
 	color: white;
-	background: #2E2EFE;
+	background: #78A3C2;
+	padding: 5px 10px 5px 10px;
 }
-#contact{
+/*------footer-------*/
+footer{
+	font-size: 13px;
 	width: 100%;
 	height: 250px;
-	background: #04B4AE;
+	background: #DDE7EF;
+	color: #709DBE;
+	position: relative;
 }
 .logocontact{
+	margin-left: 20px;
 	width: 16%;
 	float: left;
+	margin-top: 15px;
+}
+.logocontact .logo{
+	float: left;
+	width: 30px;
+}
+.logocontact .namelogo{
+	float: left;
+    margin: 0px;
+    font-size: 23px;
 }
 .contact1{
 	width: 16%;
 	float: left;
+	margin-top: 15px;
+}
+.headercontact{
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0px;
+}
+.maincontact p{
+	margin: 0px 15px 8px 0px;
+}
+.ulmaincontact{
+	list-style-type: none;
+	padding: 0px
+}
+.ulmaincontact li a{
+	text-decoration: none;
+	color: #709DBE;
+}
+.ulmaincontact li{
+	margin-top: 6px;
+}
+
+#bordercontact2{
+	width: 50%;
+    height: 200px;
+    float: left;
+    margin-top: 15px;
 }
 .contact2{
-	width: 26%;
+	width: 40%;
 	float: left;
+	height: 100%;
+	
+}
+#textareacontact{
+	height: 20px;
+    width: 55%;
+}
+.contact2 button{
+	width: 42%;
+    height: 30px;
+    background: #78A3C2;
+    color: white;
+}
+.logoSignUp{
+	float: left;
+	margin-right: 15px;
+}
+.logoSignUp img{
+	width: 35px;
+}
+#borderPayment{
+    background: #78A3C2;
+    margin-top: 15px;
+    width: 160px;
+    height: 50px;
+}
+#borderPayment2{
+    margin-top: 10px;
+    width: 170px;
+    height: 30px;
+}
+.buttonPayment{
+	background: #78A3C2;
+    float: left;
+    width: 16%;
+    height: 20px;
+    margin-right: 6px;
+}
+#contact3{
+	bottom: 0px;
+    height: 35px;
+    width: 100%;
+    position: absolute;
+}
+#contact3 p{
+    font-size: 11px;
+    text-align: center;
+    margin: 0px;
 }
