@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<title>Example1 - Day 10</title>
+		<script type="text/javascript" src="example1.js"></script>
+	</head>
+	<body>
+		<form name="" action="#">
+			<p>Phòng: <select name="Room">
+					<option value="room1">Phòng 1</option>
+					<option value="room2">Phòng 2</option>
+					<option value="room3">Phòng 3</option>
+				</select>
+			</p>
+			<p>Người lớn: <input id="nguoilon" type="text" name="nguoilon" required=""></p><p>Trẻ em: <input id="treem" type="text" name="treem" required></p>
+			<p>Ngày đến: <input id="ngayden" type="Date" name="ngayden"></p>
+			<p>Ngày đi: <input id="ngaydi" type="Date" name="ngaydi"></p>
+			<p id="thongbao1"></p>
+			<p id="thongbao2"></p>
+			<p id="thongbao3"></p>
+			<p id="thongbao4"></p>
+			<input type="Button" value="Booking" onclick="bookingroom()">
+		</form>
+	</body>
+</html>

@@ -1,0 +1,109 @@
+*{
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+}
+#header{
+	width: 100%;
+    height: 85px;
+    background: #3b5998;
+}
+#logoFb{
+	float: left;
+	margin: 16px 0 0 115px;
+}
+#headerUsername{
+	float: right;
+	color: white;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+#headerPassword{
+	float: right;
+	color: white;
+    margin-top: 15px;
+}
+#buttonLogin{
+	float: right;
+	margin: 35px 190px 0 15px;
+}
+#leftBorder{
+	background: #e9ebee;
+	float: left;
+	width: 50%;
+	height: 500px;
+}
+#rightBorder{
+	background: #e9ebee;
+	float: left;
+	width: 50%;
+	height: 500px;
+}
+#textSignUp1{
+	font-size: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+#textSignUp2{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+#name{
+	height: 45px;
+}
+#firstName{
+	margin-right: 10px;
+    float: left;
+    height: 25px;
+    border: 1px solid;
+}
+#lastName{
+	float: left;
+	height: 25px;
+	width: 155px;
+	border: 1px solid;
+}
+#noneFirstName{
+	margin: 4px 0 0 13px;
+    height: 27px;
+    float: left;
+    color: red;
+}
+#email{
+	width: 352px;
+	height: 25px;
+	margin-bottom: 15px;
+	border: 1px solid;
+}
+#noneEmail{
+	margin: 4px 140px 0 0;
+    height: 27px;
+    float: right;
+    color: red;
+}
+#noneReEmail{
+	margin: 4px 112px 0 0;
+    height: 27px;
+    float: right;
+    color: red;
+}
+#reEmail{
+	width: 352px;
+	height: 25px;
+    margin-bottom: 15px;
+    border: 1px solid;
+}
+#password{
+	width: 352px;
+	height: 25px;
+    margin-bottom: 15px;
+    border: 1px solid;
+}
+#signUp{
+	background: linear-gradient(#67ae55, #578843);
+    margin-left: 140px;
+    height: 34px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+}

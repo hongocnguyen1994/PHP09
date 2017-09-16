@@ -1,0 +1,28 @@
+#borderTextarea{
+	border: 2px solid black;
+    width: 52%;
+    height: 30px;
+}
+#border{
+	width: 30%;
+    height: 300px;
+}
+.classButton{
+	float: left;
+	width: 41px;
+    height: 36px;
+}
+.classButton1{
+	float: left;
+	width: 45px;
+    height: 27px;
+}
+#leftBorderButton{
+	width: 42%;
+    height: 200px;
+    float: left;
+}
+#rightBorderButton{
+	float: left;
+	width: 20%;
+}
